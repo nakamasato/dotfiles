@@ -5,6 +5,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.copyOnSelection": true,
     "window.zoomLevel": -1,
     "editor.formatOnSave": true,
     "terraform.indexing": {
@@ -17,17 +18,17 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
-        "args": []
+        "external": true,
+        "args": [
+            "serve"
+        ]
     },
     "files.trimFinalNewlines": false,
     "files.trimTrailingWhitespace": true,
     "[sql]": {},
     "files.insertFinalNewline": true,
     "editor.quickSuggestions": null,
-    "files.associations": {
-
-    },
+    "files.associations": {},
     "mssql.format.datatypeCasing": "uppercase",
     "mssql.connections": [
         {
